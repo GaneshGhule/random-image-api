@@ -1,12 +1,12 @@
 package com.gg.randomimage.controller;
 
-import com.gg.randomimage.dto.ImageDTO;
 import com.gg.randomimage.exception.RandomImageException;
 import com.gg.randomimage.service.ImageService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.*;
-import org.springframework.web.servlet.ModelAndView;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class ImageController {
